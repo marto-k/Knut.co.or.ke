@@ -1,5 +1,7 @@
  /*Css file*/
- 
+#navigation{
+    text-align: center;
+}
 #mod-search-searchword{
 float:right;
 }
