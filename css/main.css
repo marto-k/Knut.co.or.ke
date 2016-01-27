@@ -5,6 +5,7 @@
 #main-nav{
     text-align: center;
     background-color: crimson;
+    text-color: black;
 }
 #navigation a{
     font-size: 27px;
