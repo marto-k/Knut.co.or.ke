@@ -14,6 +14,54 @@
 
 <p>0710 600981, 0710, 600983, 0733 600880</p>
 <div style="height:40px;width:100%;background:red;"></div>
+      <h2 align="center">Contact Form</h2>
+<form align="center" id="contact-form" class="form-validate" method="post" action="/index.php/contact-us">
+<fieldset>
+<legend align="center">Send an email. All fields with an * are required.</legend>
+<dl>
+<dt>
+<dd>
+<input id="jform_contact_name" class="required invalid" type="text" size="30" value="" name="jform[contact_name]" aria-required="true" required="required" aria-invalid="true">
+</dd>
+<dt>
+<label id="jform_contact_email-lbl" class="hasTip required" title="" for="jform_contact_email">
+Email
+<span class="star"> *</span>
+</label>
+</dt>
+<dd>
+<input id="jform_contact_email" class="validate-email required" type="email" size="30" value="" name="jform[contact_email]" aria-required="true" required="required">
+</dd>
+<dt>
+<label id="jform_contact_emailmsg-lbl" class="hasTip required" title="" for="jform_contact_emailmsg">
+</dt>
+<dd>
+<input id="jform_contact_emailmsg" class="required" type="text" size="60" value="" name="jform[contact_subject]" aria-required="true" required="required">
+</dd>
+<dt>
+<label id="jform_contact_message-lbl" class="hasTip required" title="" for="jform_contact_message">
+</dt>
+<dd>
+<textarea id="jform_contact_message" class="required" rows="10" cols="50" name="jform[contact_message]" aria-required="true" required="required"></textarea>
+</dd>
+<dt>
+<label id="jform_contact_email_copy-lbl" class="hasTip" title="" for="jform_contact_email_copy">Send copy to yourself</label>
+</dt>
+<dd>
+<input id="jform_contact_email_copy" type="checkbox" value="1" name="jform[contact_email_copy]">
+</dd>
+<dt></dt>
+<dd>
+<button class="button validate" type="submit">Send Email</button>
+<input type="hidden" value="com_contact" name="option">
+<input type="hidden" value="contact.submit" name="task">
+<input type="hidden" value="" name="return">
+<input type="hidden" value="3:knut-hq" name="id">
+<input type="hidden" value="1" name="a18756e2e450bbb2b3b98a3c8f9e0e41">
+</dd>
+</dl>
+</fieldset>
+</form>
 
  </body>
  </html>
