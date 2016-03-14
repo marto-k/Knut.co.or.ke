@@ -1,7 +1,8 @@
  <!DOCTYPE html>
  <html>
- <head></head>
- <body>
+ <head><title>Contact</title></head>
+ <body style="height:110%;">
+ <div align="center">
   <h1 align="center">KNUT HQ</h1>
 <h4>Contact</h4>
 
@@ -13,14 +14,18 @@
 <p>254(0) 20 2222701</p>
 
 <p>0710 600981, 0710, 600983, 0733 600880</p>
+</div>
 <div style="height:40px;width:100%;background:red;"></div>
       <h2 align="center">Contact Form</h2>
-<form align="center" id="contact-form" class="form-validate" method="post" action="/index.php/contact-us">
-<fieldset>
+<form id="contact-form" class="form-validate" method="post" action="/index.php/contact-us">
+<fieldset align="center">
 <legend align="center">Send an email. All fields with an * are required.</legend>
 <dl>
+Name
+<span class="star"> *</span>
 <dt>
 <dd>
+
 <input id="jform_contact_name" class="required invalid" type="text" size="30" value="" name="jform[contact_name]" aria-required="true" required="required" aria-invalid="true">
 </dd>
 <dt>
@@ -34,12 +39,16 @@ Email
 </dd>
 <dt>
 <label id="jform_contact_emailmsg-lbl" class="hasTip required" title="" for="jform_contact_emailmsg">
+Subject
+<span class="star"> *</span>
 </dt>
 <dd>
 <input id="jform_contact_emailmsg" class="required" type="text" size="60" value="" name="jform[contact_subject]" aria-required="true" required="required">
 </dd>
 <dt>
 <label id="jform_contact_message-lbl" class="hasTip required" title="" for="jform_contact_message">
+Mesage
+<span class="star"> *</span>
 </dt>
 <dd>
 <textarea id="jform_contact_message" class="required" rows="10" cols="50" name="jform[contact_message]" aria-required="true" required="required"></textarea>
